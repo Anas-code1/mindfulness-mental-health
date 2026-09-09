@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraCalm — Mindfulness & Mental Wellness App</title>
+  <meta name="description" content="A gentle, non-judgmental wellness app engineered to de-escalate anxiety and reverse burnout. Discover restorative somatic breathwork, neuro-acoustic soundscapes, and restorative sleepcasts.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Section 1: Sticky Header / Nav -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <div class="logo-mark">A</div>
+        <span>AuraCalm</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary" id="header-cta-btn">Try It Free</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#stats">Impact</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top: 0.5rem; text-align: center;">Try It Free</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="pill-badge">Clinically-Informed Wellness</div>
+            <h1>Quiet the Mental Static and <span>Reclaim Deep Inner Rest</span></h1>
+            <p>A gentle, non-judgmental wellness app engineered to de-escalate anxiety and reverse burnout. Discover restorative somatic breathwork, neuro-acoustic soundscapes, and restorative sleepcasts.</p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary" id="hero-cta-btn">Try It Free</a>
+              <a href="#how-it-works" class="btn btn-secondary" id="hero-secondary-btn">See How It Works</a>
+            </div>
+            <div class="hero-trust">
+              <div class="trust-avatars">
+                <div class="trust-avatar">A</div>
+                <div class="trust-avatar">B</div>
+                <div class="trust-avatar">C</div>
+                <div class="trust-avatar">D</div>
+              </div>
+              <div>
+                <strong>Trusted by 10,000+</strong> ambitious members worldwide
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Pure CSS / SVG Interface Visual -->
+          <div class="hero-visual">
+            <div class="visual-canvas">
+              <div class="visual-header">
+                <div class="visual-dots">
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                </div>
+                <div class="visual-title-bar"></div>
+                <div class="visual-dot" style="background: var(--primary);"></div>
+              </div>
+              <div class="visual-body">
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">SOS De-escalation Breath Ring</div>
+                    <div class="visual-card-subtitle">Active & fully optimized</div>
+                  </div>
+                  <div class="visual-badge">100%</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Binaural Neuro-Acoustic Waves</div>
+                    <div class="visual-card-subtitle">Real-time automation active</div>
+                  </div>
+                  <div class="visual-badge">Live</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Restorative Sleep Sanctuary</div>
+                    <div class="visual-card-subtitle">Peak performance verified</div>
+                  </div>
+                  <div class="visual-badge">Sync</div>
+                </div>
+              </div>
+
+              <div class="floating-stat-pill">
+                <span>🌿 78% reduction in acute stress reported</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Features / Services -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Core Capabilities</div>
+          <h2>Engineered Specifically for Your Success</h2>
+          <p>Everything you need to eliminate friction, maximize output, and achieve real results.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg></div>
+          <h3>SOS De-escalation Breath Ring</h3>
+          <p>Instant 3-minute somatic breathing exercises designed to bring your nervous system back from fight-or-flight.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg></div>
+          <h3>Binaural Neuro-Acoustic Waves</h3>
+          <p>Scientifically tuned theta and alpha frequencies that gently guide high-stress brainwaves into restorative states.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg></div>
+          <h3>Restorative Sleep Sanctuary</h3>
+          <p>Narrated ambient sleepcasts, gentle body scans, and night-fall soundscapes that melt insomnia away.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <h3>Burnout Recovery Modules</h3>
+          <p>Progressive evidence-backed micro-lessons on setting psychological boundaries and overcoming emotional exhaustion.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <h3>Gentle Unpressured Check-Ins</h3>
+          <p>No guilt streaks or punitive notifications. Practice whenever your body calls for a moment of quiet.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 004 11m0 0a8 8 0 004 8c1.378 0 2.684-.347 3.824-.962"/></svg></div>
+          <h3>Offline Calm Mode</h3>
+          <p>Download your favorite meditation journeys and ambient rain loops to find peace during flights or commutes.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: How It Works / About -->
+    <section id="how-it-works" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Simple 3-Step Process</div>
+          <h2>How AuraCalm Works</h2>
+          <p>Getting started takes less than 3 minutes. Here is how we make transformation effortless.</p>
+        </div>
+        <div class="steps-grid">
+          
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Ground Your Energy</h3>
+          <p>Open the app and tap the SOS breath ring to regulate your heart rate variability in just 3 minutes.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Select Your Restorative Soundscape</h3>
+          <p>Immerse in clinically designed acoustic frequencies, ambient rain, or gentle guided somatic cues.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Restore Deep Vitality</h3>
+          <p>Build emotional resilience naturally, dissolve bedtime anxiety, and wake up genuinely refreshed.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Social Proof / Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Member Stories</div>
+          <h2>Loved by Users Around the Globe</h2>
+          <p>Read real experiences from everyday members who leveled up with AuraCalm.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“AuraCalm doesn’t feel like a noisy, gamified app. It feels like stepping into a sunlit sanctuary when work burnout is at its absolute peak.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">HM</div>
+            <div>
+              <div class="author-name">Dr. Hannah Meyer</div>
+              <div class="author-role">Clinical Research Associate</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“The 3-minute SOS breathwork helped me stay centered during administrative crisis days. It has become an essential part of my daily mental health toolkit.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JV</div>
+            <div>
+              <div class="author-name">Julian Vance</div>
+              <div class="author-role">High School Vice Principal</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“My insomnia was persistent for two years. The sleep sanctuary body scans consistently put me to sleep in under 12 minutes.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">ML</div>
+            <div>
+              <div class="author-name">Maya Lin</div>
+              <div class="author-role">Architectural Project Lead</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Section 6: Stats / Impact -->
+    <section id="stats" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Proven Results</div>
+          <h2>Real Impact Measured in Real Numbers</h2>
+          <p>Join thousands of empowered members experiencing verified results every single day.</p>
+        </div>
+        <div class="stats-grid">
+          
+          <div class="stat-box">
+            <div class="stat-value">78%</div>
+            <div class="stat-label">Reported Anxiety Reduction</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">1.6M+</div>
+            <div class="stat-label">Mindful Sessions Completed</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">11 Min</div>
+            <div class="stat-label">Average Daily Practice</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">92%</div>
+            <div class="stat-label">Members Fall Asleep Faster</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: FAQ Accordion -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Got Questions?</div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about AuraCalm, onboarding, and privacy.</p>
+        </div>
+        <div class="faq-container">
+          
+          <div class="faq-item active">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>What if I find standard silent meditation frustrating or difficult?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>AuraCalm does not force you to clear your mind. We utilize somatic focus, gentle ambient audio, and guided breathing cues that give your mind soothing anchors instead of pressure.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Is this grounded in actual neuroscience research?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. Our breath ratios and binaural frequencies are informed by clinical studies on polyvagal theory and vagus nerve stimulation to down-regulate sympathetic nervous arousal.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I use AuraCalm completely offline?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. You can download any audio track, bedtime sleepcast, or somatic guide to your device with one tap for use on planes or in off-grid cabins.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Are there pushy streak counters or notifications?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Never. We intentionally reject punitive streak gamification because guilt has no place in healing burnout. We are here whenever you need a breather.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How does the free trial work?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>You receive 14 days of unrestricted access to the entire library. If you choose not to continue, you can cancel easily with one click before your trial ends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Final CTA Banner & Integrated Contact Form -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-grid">
+            <div>
+              <div class="pill-badge">Get In Touch</div>
+              <h2>Give Yourself the Rest You Deserve</h2>
+              <p>Step away from stress and let your nervous system reset. Experience the calming embrace of AuraCalm today.</p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="#contact" class="btn btn-primary">Try It Free</a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+              </div>
+            </div>
+
+            <!-- Frontend Contact Form -->
+            <div class="contact-card">
+              <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Send Us a Message</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Have questions or want a personal walkthrough? Drop us a note.</p>
+              
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Alex Morgan" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="alex@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="3" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Try It Free</button>
+                <div id="form-status" class="form-status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 9: Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-mark">A</div>
+            <span>AuraCalm</span>
+          </div>
+          <p>Somatic Mindfulness & Burnout Recovery. Purpose-built for modern convenience and tangible results.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#faq">Help Center</a></li>
+              <li><a href="#features">API Documentation</a></li>
+              <li><a href="#testimonials">Customer Stories</a></li>
+              <li><a href="#how-it-works">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Security & Compliance</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 AuraCalm. All rights reserved. Built with precision.</div>
+        <div>Designed for people managing stress and burnout.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
