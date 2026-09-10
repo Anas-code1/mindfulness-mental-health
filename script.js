@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.disabled = true;
 
       setTimeout(() => {
-        formStatus.innerHTML = "Thanks — we'll be in touch! You can also reach Ayesha Malik directly at <a href='mailto:ayesha.malik96@gmail.com' style='text-decoration:underline; font-weight:700; color:inherit;'>ayesha.malik96@gmail.com</a> or <a href='tel:+923456281943' style='text-decoration:underline; font-weight:700; color:inherit;'>+92 345 6281943</a>.";
+        formStatus.innerHTML = "Thanks — we'll be in touch! You can also reach Sarah Jenkins directly at <a href='mailto:sarah.jenkins.care@gmail.com' style='text-decoration:underline; font-weight:700; color:inherit;'>sarah.jenkins.care@gmail.com</a> or <a href='tel:+12068146523' style='text-decoration:underline; font-weight:700; color:inherit;'>+1 (206) 814-6523</a>.";
         formStatus.style.display = 'block';
         contactForm.reset();
         submitBtn.textContent = originalText;
